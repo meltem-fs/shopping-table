@@ -1,5 +1,14 @@
 body {
   font-family: Roboto;
+  text-align: center;
+  background-image: url(./6bfba84a3d452b715ae5630ce5ac0c44l.jpg);
+  background-repeat: repeat-x;
+  background-size:37rem ;
+}
+h1{
+    font-size: 3rem;
+    color:rgb(12, 106, 90);
+    
 }
 
 a {
@@ -8,7 +17,9 @@ a {
 
 table.shopping-cart {
   width: 70%;
-  background-color: rgb(221, 221, 221);
+  height:500px;
+  background-color: rgb(247, 221, 221);
+  margin-left: 18rem;
 }
 
 table.shopping-cart td,
@@ -18,12 +29,12 @@ table.shopping-cart th {
 
 table.shopping-cart tfoot,
 table.shopping-cart thead {
-  background-color: rgb(58, 58, 58);
+  background-color: rgb(18, 92, 78);
   color: white;
 }
 
 table.shopping-cart tbody tr:nth-child(odd) {
-  background-color: rgb(158, 158, 158);
+  background-color: rgb(126, 184, 181);
 }
 
 table.shopping-cart tbody tr td:nth-child(3) {
@@ -39,14 +50,16 @@ table.shopping-cart tbody tr td:nth-child(4) {
 div.sc-buttons {
   width: 70%;
   text-align: right;
+  margin-left: 18rem;
 }
 
 div.sc-buttons button {
-  background-color: tomato;
+  background-color: rgb(222, 30, 55);
   font-size: 1.1rem;
   color: white;
   padding: 0.5rem;
   border: 0;
+  border-radius: 10px;
 }
 
 div.sc-buttons button i {
